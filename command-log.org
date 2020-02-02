@@ -1,0 +1,15 @@
+
+
+- Display a Window showing active commands being logged (in realtime)
+
+- Periodically Logs Commands to a file :: 
+	Periodically logs commands (every 60 seconds)
+	command-log-file : ~/.emacs.d/metrics/records/record
+	
+
+    Basic Format:
+(
+C-f forward-char
+C-b backward-char
+C-a beginning-of-line
+)
